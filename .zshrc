@@ -3,12 +3,15 @@ export ZSH="/Users/seven/.oh-my-zsh"
 export NVM_DIR="$HOME/.nvm"
 
 # configs
-ZSH_THEME="robbyrussell"
+# ZSH_THEME="robbyrussell"
+ZSH_THEME="powerlevel9k/powerlevel9k"
 CASE_SENSITIVE="true"
 
 # plugins
 plugins=(git)
 plugins=(zsh-autosuggestions)
+POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(dir)
+POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(node_version)
 
 source $ZSH/oh-my-zsh.sh
 
