@@ -13,7 +13,8 @@ plugins=(zsh-autosuggestions)
 source $ZSH/oh-my-zsh.sh
 
 # aliases
-alias zshconfig="bat ~/.zshrc"
+alias czsh="bat ~/.zshrc"
+alias vzsh="vim ~/.zshrc"
 alias do=docker
 alias gl="git log --oneline --graph"
 alias cat=bat
@@ -22,7 +23,7 @@ alias cat=bat
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 
 # functions
-pid() {
+port() {
     lsof -i tcp:"$1"
 }
 
