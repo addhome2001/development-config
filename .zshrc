@@ -15,7 +15,7 @@ source $ZSH/oh-my-zsh.sh
 # aliases
 alias czsh="bat ~/.zshrc"
 alias vzsh="vim ~/.zshrc"
-alias do=docker
+alias doc=docker
 alias gl="git log --oneline --graph"
 alias cat=bat
 
