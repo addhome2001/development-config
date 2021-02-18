@@ -2,6 +2,11 @@ export PATH=$HOME/bin:/usr/local/bin:$PATH
 export ZSH="/Users/seven/.oh-my-zsh"
 export NVM_DIR="$HOME/.nvm"
 
+# font
+POWERLEVEL9K_MODE="nerdfont-complete"
+# sohrt the directories
+POWERLEVEL9K_SHORTEN_STRATEGY=truncate_to_last
+
 # configs
 # ZSH_THEME="robbyrussell"
 ZSH_THEME="powerlevel9k/powerlevel9k"
