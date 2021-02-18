@@ -2,19 +2,18 @@ export PATH=$HOME/bin:/usr/local/bin:$PATH
 export ZSH="/Users/seven/.oh-my-zsh"
 export NVM_DIR="$HOME/.nvm"
 
-# font
-POWERLEVEL9K_MODE="nerdfont-complete"
+# configs
+# theme font
+# refer to https://github.com/Powerlevel9k/powerlevel9k/wiki/Install-Instructions#step-2-install-a-powerline-font
+# POWERLEVEL9K_MODE="nerdfont-complete"
 # sohrt the directories
 POWERLEVEL9K_SHORTEN_STRATEGY=truncate_to_last
-
-# configs
+# CASE_SENSITIVE="true"
 # ZSH_THEME="robbyrussell"
 ZSH_THEME="powerlevel9k/powerlevel9k"
-CASE_SENSITIVE="true"
 
 # plugins
-plugins=(git)
-plugins=(zsh-autosuggestions)
+plugins=(zsh-autosuggestions zsh-syntax-highlighting)
 POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(dir vcs)
 POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(node_version time)
 
