@@ -10,8 +10,8 @@ CASE_SENSITIVE="true"
 # plugins
 plugins=(git)
 plugins=(zsh-autosuggestions)
-POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(dir)
-POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(node_version)
+POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(dir vcs)
+POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(node_version time)
 
 source $ZSH/oh-my-zsh.sh
 
