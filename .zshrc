@@ -8,6 +8,7 @@ export NVM_DIR="$HOME/.nvm"
 # POWERLEVEL9K_MODE="nerdfont-complete"
 # sohrt the directories
 POWERLEVEL9K_SHORTEN_STRATEGY=truncate_to_last
+POWERLEVEL9K_DIR_MAX_LENGTH=1
 # CASE_SENSITIVE="true"
 # ZSH_THEME="robbyrussell"
 ZSH_THEME="powerlevel9k/powerlevel9k"

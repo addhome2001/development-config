@@ -8,3 +8,4 @@ git config --global alias.unstage 'reset HEAD --'
 git config --global alias.last 'log -1 HEAD'
 
 cp ./.zshrc ~/.zshrc
+cp ./vimrc ~/.vim/vimrc
