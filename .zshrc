@@ -25,6 +25,7 @@ alias vzsh="vim ~/.zshrc"
 alias doc=docker
 alias gl="git log --oneline --graph"
 alias cat=bat
+alias killnode="killall node"
 
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
