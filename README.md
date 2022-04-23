@@ -5,6 +5,7 @@ bat
 Another redis desktop manager
 proxyman
 dstp
+httpie
 
 Extensions:
 EditThisCookie
