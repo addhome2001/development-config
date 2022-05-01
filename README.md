@@ -6,6 +6,7 @@ Another redis desktop manager
 proxyman
 dstp
 httpie
+fig
 
 Extensions:
 EditThisCookie
