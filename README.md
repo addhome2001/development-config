@@ -2,11 +2,14 @@ Tools:
 k9s
 gtop
 bat
-Another redis desktop manager
-proxyman
 dstp
 httpie
 fig
+Cheat (brew install)
+
+GUI:
+proxyman
+Another redis desktop manager
 
 Extensions:
 EditThisCookie
