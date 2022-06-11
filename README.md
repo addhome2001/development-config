@@ -17,3 +17,6 @@ EditThisCookie
 Redirect Path
 Refined GitHub
 Tamper Dev
+
+Font:
+https://github.com/tonsky/FiraCode/wiki/Installing
