@@ -10,6 +10,7 @@ Cheat (brew install)
 GUI:
 proxyman
 Another redis desktop manager
+Sloth
 
 Extensions:
 EditThisCookie
